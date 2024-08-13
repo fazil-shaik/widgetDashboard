@@ -59,27 +59,27 @@ widget-dashboard/
 │
 ├── src/
 │   ├── assets/
-│   │   ├── images/            
-│   │   └── icons/             
+│   │   ├── images/            # Place for image assets
+│   │   └── icons/             # Place for icon assets
 │   │
 │   ├── components/
-│   │   ├── Dashboard.js       
-│   │   ├── AddWidgetForm.js   
-│   │   └── Widget.js          
+│   │   ├── Dashboard.js        # Component for displaying the dashboard
+│   │   ├── AddWidgetForm.js    # Component for adding a new widget
+│   │   └── Widget.js           # Component for individual widgets
 │   │
 │   ├── data/
-│   │   └── widgetData.js      
+│   │   └── widgetData.js       # Contains initial widget data
 │   │
 │   ├── pages/
-│   │   ├── HomePage.js        
-│   │   └── DashboardPage.js   
+│   │   ├── HomePage.js         # Home page component
+│   │   └── DashboardPage.js    # Dashboard page component (if separate from Dashboard component)
 │   │
-│   ├── App.js                 
-│   ├── App.css                 
-│   ├── index.js                
-│   └── routes.js              
+│   ├── App.js                  # Main application component
+│   ├── App.css                 # Global styles
+│   ├── index.js                # Entry point for the React application
+│   └── routes.js               # Routes configuration (optional, if separate)
 │
-├── .gitignore                 
-├── package.json               
-├── README.md                   
-└── LICENSE                     
+├── .gitignore                   # Git ignore file
+├── package.json                 # Project metadata and dependencies
+├── README.md                    # Project documentation
+└── LICENSE                      # License file
