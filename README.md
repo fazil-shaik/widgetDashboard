@@ -47,39 +47,3 @@ To get started with the project, follow these steps:
 
 License:
 **This project is licensed under the MIT License. See the LICENSE file for details.**
-
-
-
-**Folder Structure**
-widget-dashboard/
-│
-├── public/
-│   ├── index.html
-│   └── favicon.ico
-│
-├── src/
-│   ├── assets/
-│   │   ├── images/            # Place for image assets
-│   │   └── icons/             # Place for icon assets
-│   │
-│   ├── components/
-│   │   ├── Dashboard.js        # Component for displaying the dashboard
-│   │   ├── AddWidgetForm.js    # Component for adding a new widget
-│   │   └── Widget.js           # Component for individual widgets
-│   │
-│   ├── data/
-│   │   └── widgetData.js       # Contains initial widget data
-│   │
-│   ├── pages/
-│   │   ├── HomePage.js         # Home page component
-│   │   └── DashboardPage.js    # Dashboard page component (if separate from Dashboard component)
-│   │
-│   ├── App.js                  # Main application component
-│   ├── App.css                 # Global styles
-│   ├── index.js                # Entry point for the React application
-│   └── routes.js               # Routes configuration (optional, if separate)
-│
-├── .gitignore                   # Git ignore file
-├── package.json                 # Project metadata and dependencies
-├── README.md                    # Project documentation
-└── LICENSE                      # License file
